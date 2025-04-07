@@ -1,3 +1,7 @@
+import React from 'react'
+import Echoheart from './Echoheartmvp'
+
 export default function App() {
-  return <h1>Hello from Echoheart</h1>
+  return <Echoheart />
 }
+
