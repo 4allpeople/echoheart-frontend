@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: Custom global styles */
 body {
-  @apply bg-gray-950 text-white font-sans antialiased;
+  @apply bg-black text-white font-sans antialiased;
 }
 
 button {
   @apply transition duration-200 ease-in-out;
 }
+
