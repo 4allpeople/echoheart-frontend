@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "echoheart-frontend",
   "version": "1.0.0",
   "scripts": {
