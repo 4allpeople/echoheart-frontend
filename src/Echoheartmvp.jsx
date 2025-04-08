@@ -1,4 +1,3 @@
-
 // Echoheart MVP with Persona Templates and User-Created Presets
 
 import React, { useState, useRef, useEffect } from 'react'
@@ -92,8 +91,8 @@ export default function Echoheart() {
 
   const summon = async () => {
     setLoading(true)
-    const fullMemory = [...history, `User: ${memory}`].slice(-6).join('
-')
+    const fullMemory = [...history, `User: ${memory}`].slice(-6).join('\n')
+
     const payload = { name, vibe, role, gender, memory: fullMemory, nsfw }
     const res = await fetch('https://echoheart-backend.onrender.com/chat', {
       method: 'POST',
